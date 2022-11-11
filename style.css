@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(135deg,#00b7d4,#505488,#2f3f80,#161569,#5A4894,#A950A1,#FF7CAE);
+    background-size:500%;  
+    animation: fanimado 10s infinite; 
+}
+@keyframes fanimado {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+}
+
+
+#app{
+    height:450px;
+    width:320px;
+    border:1px solid black;
+    border-radius:7px;
+    margin-top: 100px;
+    margin-right: 780px;
+    float:right;
+    
+}
+h1{
+    font-size: 3rem;
+    color:white;
+    padding-top: 20px;
+    color
+}
+#app form{
+    height:100%;
+    width: 100%;
+    background-color:rgb(0,0,0);
+
+}
+#app input[type=textfield]{
+    height: 25%;
+    width: 90%;
+    cursor: default;  
+    font-family:'roboro',sans-serif;  
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border:0;
+    outline: none;
+}
+#app input[type=button],input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+input.clase{
+    position: relative;
+    color: blue;
+    margin-bottom: 200px;
+}
+#app .orange{
+    background-color:rgb(253,149,3)!important;
+    color: white !important;
+}
+#app .gray{
+    background-color:rgb(51,51,51)!important;
+    color:white!important ;
+}
